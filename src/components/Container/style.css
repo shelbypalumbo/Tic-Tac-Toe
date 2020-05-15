@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+}
+
+h1 {
+  padding: 5% 0 3% 0;
+  /* text-decoration: underline wavy; */
+  color: rgb(48, 77, 22);
+}

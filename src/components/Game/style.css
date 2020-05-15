@@ -6,3 +6,11 @@
 .listStyle {
   list-style-type: none;
 }
+
+.moveButtons {
+  border: none;
+  background-color: rgb(252, 224, 250);
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 2px;
+}

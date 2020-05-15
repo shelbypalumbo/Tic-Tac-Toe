@@ -35,7 +35,9 @@ function Game() {
       const destination = move ? `Go to Move #${move}` : "Restart Game";
       return (
         <li className="listStyle" key={move}>
-          <button onClick={() => jumpTo(move)}>{destination}</button>
+          <button className="moveButtons" onClick={() => jumpTo(move)}>
+            {destination}
+          </button>
         </li>
       );
     });
@@ -44,12 +46,12 @@ function Game() {
     <>
       <Board squares={history[stepNumber]} onClick={handleClick} />
       <div className="game">
-        <h2>
+        <h3>
           {winner
             ? "Winner! Player " + winner
             : "Next Player: " + (xIsNext ? "X" : "O")}
-          {renderMoves()}
-        </h2>
+        </h3>
+        {renderMoves()}
       </div>
     </>
   );
