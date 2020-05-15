@@ -1,0 +1,2 @@
+.squares{background-color:#dcff67;border:2px solid #b1cd53;font-size:30px;font-weight:800;padding:25px;margin-top:15px}.board,.squares{text-align:center}.board{border:4px solid #b1cd53;background:#b1cd53;border-radius:10px;width:350px;height:350px;margin:0 auto;display:grid;grid-template:repeat(3,1fr)/repeat(3,1fr)}.game{width:200px;margin:20px auto}.listStyle{list-style-type:none}
+/*# sourceMappingURL=main.425ff4a1.chunk.css.map */
