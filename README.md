@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-A simple tic-tac-tow game built using React and Time Travel!
+A simple tic-tac-toe game built using React and Time Travel!
 
 ### Deployed Application
 
